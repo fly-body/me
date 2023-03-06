@@ -1,0 +1,21 @@
+{
+  "url": "https://img1.baidu.com/it/u=3514724041,2246358976&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=478",
+  "menuList": [
+    {
+      "name": "前端学习",
+      "url": "/fontStudy"
+    },
+    {
+      "name": "后端学习",
+      "url": "/afterStudy"
+    },
+    {
+      "name": "前端实战项目",
+      "url": "/fontProject"
+    },
+    {
+      "name": "后端实战项目",
+      "url": "/afterProject"
+    }
+  ]
+}
