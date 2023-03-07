@@ -1,11 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-    </div>
+    <NavBar />
+    <div class="box"></div>
     <router-view/>
   </div>
 </template>
+<script>
+</script>
 
-<style lang="less">
-  
+<style lang="less" scoped>
+#app{
+  min-height: 937px;
+  background-color: pink;
+}
+.box{
+  clear: both;
+}
 </style>
