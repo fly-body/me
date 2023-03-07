@@ -6,5 +6,5 @@ module.exports = {
   outputDir: "dist", // 输出文件目录
   assetsDir: "static",//静态资源文件名称
   indexPath: "index.html",
-  
+  parallel: false
 }
