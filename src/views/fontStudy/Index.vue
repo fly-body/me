@@ -33,7 +33,8 @@ export default {
   background-color: #eee;
 }
 .el-aside{
-  height: 900px;
+  min-height: 900px;
+  background-color: #eee;
 }
 .font-stydy {
   .title {

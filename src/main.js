@@ -8,6 +8,9 @@ import NavBar from '@/components/navbar/Index.vue'
 Vue.component(NavBar.name,NavBar)
 
 
+import waterfall from 'vue-waterfall2'
+Vue.use(waterfall)
+
 import "./assets/css/reset.css"
 import "@/utils/element.js"
 import "@/mock/mockServer"

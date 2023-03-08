@@ -18,7 +18,8 @@ import {
   Main,
   Card,
   Collapse,
-  CollapseItem
+  CollapseItem,
+  Divider
 } from 'element-ui'
 
 Vue.use(Button)
@@ -39,3 +40,4 @@ Vue.use(Button)
    .use(Card)
    .use(Collapse)
    .use(CollapseItem)
+   .use(Divider)

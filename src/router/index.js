@@ -36,18 +36,18 @@ const routes = [
       },
       {
         path: 'bfc',
-        name: 'block',
-        component: () => import('../views/fontStudy/Index.vue'),
+        name: 'bfc',
+        component: () => import('../views/fontStudy/bfc/Index.vue'),
       }, 
       {
         path: 'imgLayout',
         name: 'imgLayout',
-        component: () => import('../views/fontStudy/Index.vue'),
+        component: () => import('../views/fontStudy/imgLayout/Index.vue'),
       },
       {
         path: 'canvas',
         name: 'canvas',
-        component: () => import('../views/fontStudy/Index.vue'),
+        component: () => import('../views/fontStudy/canvas/Index.vue'),
       },
       {
         path: 'scope',
