@@ -1,5 +1,9 @@
 <template>
-  <div>未学习内容</div>
+  <div>
+    <el-card>
+      没想好怎么写
+    </el-card>
+  </div>
 </template>
 <script>
 export default {
@@ -8,4 +12,4 @@ export default {
 </script>
 <style lang="less" scoped>
   
-</style>
+</style> 

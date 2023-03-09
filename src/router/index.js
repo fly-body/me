@@ -45,6 +45,11 @@ const routes = [
         component: () => import('../views/fontStudy/imgLayout/Index.vue'),
       },
       {
+        name: 'flex',
+        path: 'flex',
+        component: () => import('../views/fontStudy/flex/Index.vue'),
+      },
+      {
         path: 'canvas',
         name: 'canvas',
         component: () => import('../views/fontStudy/canvas/Index.vue'),
@@ -52,37 +57,22 @@ const routes = [
       {
         path: 'scope',
         name: 'scope',
-        component: () => import('../views/fontStudy/Index.vue'),
+        component: () => import('../views/fontStudy/scope/Index.vue'),
       },
       {
         path: 'closePackage',
         name: 'closePackage',
-        component: () => import('../views/fontStudy/Index.vue'),
+        component: () => import('../views/fontStudy/closePackage/Index.vue'),
       },
       {
-        path: 'proto',
-        name: 'proto',
-        component: () => import('../views/fontStudy/Index.vue'),
-      },
-      {
-        path: 'args',
-        name: 'args',
-        component: () => import('../views/fontStudy/Index.vue'),
-      },
-      {
-        path: 'response',
-        name: 'response',
-        component: () => import('../views/fontStudy/Index.vue'),
-      },
-      {
-        path: 'diff',
-        name: 'diff',
-        component: () => import('../views/fontStudy/Index.vue'),
+        path: 'lifecycle',
+        name: 'lifecycle',
+        component: () => import('../views/fontStudy/lifecycle/Index.vue'),
       },
       {
         path: 'route',
         name: 'route',
-        component: () => import('../views/fontStudy/Index.vue'),
+        component: () => import('../views/fontStudy/route/Index.vue'),
       },
       {
         path: 'axios',

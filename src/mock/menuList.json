@@ -32,6 +32,10 @@
       {
         "name": "canvas案例",
         "path": "canvas"
+      },
+      {
+        "name": "flex布局",
+        "path": "flex"
       }
     ]
   },
@@ -46,14 +50,6 @@
       {
         "name": "闭包",
         "path": "closePackage"
-      },
-      {
-        "name": "原型链",
-        "path": "proto"
-      },
-      {
-        "name": "arguments",
-        "path": "args"
       }
     ]
   },
@@ -62,12 +58,8 @@
     "id": 4,
     "children": [
       {
-        "name": "响应式原理",
-        "path": "response"
-      },
-      {
-        "name": "diff",
-        "path": "diff"
+        "name": "生命周期",
+        "path": "lifecycle"
       },
       {
         "name": "路由",
@@ -84,6 +76,10 @@
       {
         "name": "组件缓存",
         "path": "cache"
+      },
+      {
+        "name": "组件通信",
+        "path": "communication"
       }
     ]
   },

@@ -19,7 +19,15 @@ import {
   Card,
   Collapse,
   CollapseItem,
-  Divider
+  Divider,
+  Steps,
+  Step,
+  Tabs,
+  TabPane,
+  Select,
+  Option,
+  Cascader,
+  Tree
 } from 'element-ui'
 
 Vue.use(Button)
@@ -41,3 +49,11 @@ Vue.use(Button)
    .use(Collapse)
    .use(CollapseItem)
    .use(Divider)
+   .use(Steps)
+   .use(Step)
+   .use(Tabs)
+   .use(TabPane)
+   .use(Select)
+   .use(Option)
+   .use(Cascader)
+   .use(Tree)
